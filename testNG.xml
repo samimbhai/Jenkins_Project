@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+  <test thread-count="5" verbose="2" name="Default test">
+    <classes>
+      <class name="Ethans.company.NewTest"/> <!-- run the test cases against NewTest.java class of our project through testSuite,please check below pom.xml, testNg xml is there and run as testNg suite-->  
+     <!--  <class name="Ethans.company.NewTest"/>   if one more classes inside project src\test\java then write the classes one by one here, this is the advatages of testSuite --> 
+    <!--   <class name="Ethans.company.NewTest"/>if one more classes inside project src\test\java then write the classes one by one here, this is the advatages of testSuite -->
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
